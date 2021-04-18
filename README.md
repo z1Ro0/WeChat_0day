@@ -6,6 +6,9 @@
 ## 描述
 微信0day漏洞exp
 
+## 影响版本
+微信PC（Windows）< 3.2.1.141
+
 ## 使用
 替换exp.js中的shellcode,根据实际情况构造加载exp.js的站点文件，如exp.html或exp.php
 通过微信发送链接给目标，并诱导目标点击链接
